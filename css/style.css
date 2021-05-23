@@ -1,3 +1,66 @@
+
+.intro {
+  color: whitesmoke;
+}
+.btn-primary {
+  background-color: teal;
+  color: whitesmoke;
+}
+.btn-secondary {
+  background-color: teal;
+  color: whitesmoke;
+}
+.btn-outline-secondary {
+  background-color: teal;
+  color: whitesmoke;
+
+}
+
+.myRole {
+  color: whitesmoke;
+}
+
+.problem {
+  color: whitesmoke;
+}
+
+.currentSite {
+  color: whitesmoke;
+  align-content: center;
+  padding-left: 250px;
+}
+
+.userResearch {
+  color: whitesmoke;
+  align-content: center;
+  padding-left: 250px;
+}
+
+.userJourney {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.keyId {
+  color: whitesmoke;
+  align-content: center;
+  font-size: 40px;
+  padding-left: 550px;
+}
+.keyInsight {
+  color: black;
+}
+
+.finalFeatures {
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -5,7 +68,7 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    background-color: black;
   }
   
   

@@ -3,37 +3,38 @@
 <head>
 <title>Nick Duncan UX/UI HW Week 20</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="styles.css">
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
 
 <!-- Navbar content -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Nick Duncan Logo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Research <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Ideation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Testing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Prototype</a>
-        </li>
-    </div>
-  </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+  <a class="navbar-brand" href="#"><img src="images/header logo - nd.png">nickduncandesign.com</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">RESEARCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">IDEATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">TESTING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PROTOTYPES</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
   <!-- Intro content -->
-
+<section class="intro"> 
   <div class="introContainer">
     <div class="row">
       <div class="col-sm">
@@ -46,9 +47,11 @@
       </div>
     </div>
   </div>
+</section>
 
   <!-- Role content -->
 
+  <section class="myRole">
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
@@ -67,9 +70,11 @@
       </div>
     </div>
   </div>
+</section>
 
   <!-- Problem Statment content -->
 
+<section class="problem">
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
@@ -82,31 +87,21 @@
       </div>
     </div>
   </div>
+</section>
  
+<section class="currentSite">
 <h1>CURRENT SITE: </h1>
 <p>The current G2G page only had 2 sections, About & Buy. It was obvious they needed help telling their story, and our user research confirmed that. </p>
-  
-  
+<img src="images/G2G original homepage 1.png">
+</section>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="images/g2g og homepage 1.png">
-      </div>
-      <div class="col-sm-4">
-        <img src="images/g2g og homepage 2.png">
-      </div>
-      <div class="col-sm-4">
-        <img src="images/g2g og homepage 3.png">
-      </div>
-    </div>
-  </div>
-
+<hr class="featurette-divider">
 
   <!-- User Research content -->
-  <h1>USER JOURNEY/USER PERSONA</h1>
-    <p>Based on survey and interview results we were able to create a persona of a potential donor what her journey through that process might look like.</p>
-  <div class="container marketing">
+  <section class="userResearch">
+  <h1>USER RESEARCH</h1>
+
+  <div class="containerResearch">
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
@@ -114,30 +109,32 @@
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>User Interviews</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p>Our team conducted several 1-on-1 interviews with potential users and donors to understand the obstacles they might while trying to use the current G2G website.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>Stakeholder Interviews</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p>Next our team met the founder of G2G, Abiodun "Abby" Henderson, along with several current participants of the program to better understand the organizations goals and needs. </p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>Survey Results</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p>We sent out Google Surveys to the general public to guage their overall interest and knowledge of the G2G organization and it's current website. </p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+  </section>
 
 
     <!-- START THE FEATURETTES -->
-
     <hr class="featurette-divider">
 
+
+    <section class="userJourney"> 
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">User Journey </h2>
@@ -145,27 +142,29 @@
       </div>
       <div class="col-md-5">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
       </div>
     </div>
+  </section>
     
 
     <hr class="featurette-divider">
 
-    <p>Key User Insights</p>
+    <p class="keyId">Key User Insights</p>
+
+    <section class="keyInsight">
     <div class="accordion" id="accordionExample">
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Collapsible Group Item #1
+              Transparency
             </button>
           </h2>
         </div>
     
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          The first key insight we uncovered was that users notice a key lack of transpareny on the G2G website. They were looking to read more about thier story, how they got started. They wanted to know more about the program what projects they are currently focused on. 
           </div>
         </div>
       </div>
@@ -173,13 +172,13 @@
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Collapsible Group Item #2
+              The Story
             </button>
           </h2>
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        Secondly, users not only wanted to know more about the story of Gangters to Growers, but they wanted to hear the stories of students who have been through the program. And to add, they wanted to know the story of the Sweet Sol Hot Sauce that G2G sells. None of this information was front and cetner on the site. 
           </div>
         </div>
       </div>
@@ -187,22 +186,23 @@
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Collapsible Group Item #3
+              Get Involved
             </button>
           </h2>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Lastly, a major issue was that there was no way for donors to make a gift on the homepage. The was no information about how to get involved and help the cause, and no information on how to enroll participants. This is a key factor in promoting the future of G2G. 
           </div>
         </div>
       </div>
     </div>
+  </section>
 
 
     <hr class="featurette-divider">
   
-
+<section class="finalFeatures">
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Style  Guide </h2>
@@ -229,7 +229,7 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Usability Testing <span class="text-muted">A/B Testing</span></h2>
+        <h2 class="featurette-heading">Usability Testing & A/B Testing </h2>
         <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
       </div>
       <div class="col-md-5 order-md-1">
@@ -237,28 +237,22 @@
 
       </div>
     </div>
+  </section>
 
     <hr class="featurette-divider">
 
      <!-- /FINAL THOUGHTS -->
 
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
+<section class="finalThoughts"> 
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">Final Thoughts</h1>
-        <p class="col-md-8 fs-4">Challenges, Observations, and Essential Insights
-          Potential Donors want to be informed
-          Early stakeholder buy-in
-          Matching brand aesthetics
-          Future Development and Considerations
-          Gamification
-          Web Store
-          Newsletter, Patreon, Paypal
-          IG Video Feed
-          Deeper research & testing
-          Comparative analysis</p>
+        <p class="col-md-8 fs-4">
+          This project was challenging in the aspect that the stakeholder required us to maintain the current asthetics of their site, while meeting the needs of users. 
+          It was important however that we made contact with G2G and had them bought in from an early point.
+          In the future we wouldl love to test some of our new features and see if they make a difference in donations and creating awareness for the brand. 
+          We would love to incorporate social feeds and a full web store in the future. 
+      </p>
       </div>
     </div>
 
@@ -266,18 +260,19 @@
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3">
           <h2>Final Web Prototype</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Try It Now</button>
+          <p>In our final web prototpe you will see some of the new features we implemented in cluding a donation button, a more detailed 'About Me' section, a stories section, a metrics carousel, a list of partners and a way to make contact and get involved.</p>
+          <button class="btn btn-outline-secondary" type="button">Try It Now</button>
         </div>
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
           <h2>Final Mobile Prototype</h2>
-          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <p>Our final mobile prototype is very similar. It includes all the features of the website including a newsletter subscription link and more.</p>
           <button class="btn btn-outline-secondary" type="button">Try It Now</button>
         </div>
       </div>
     </div>
+  </section>
 
 
     <hr class="featurette-divider">
@@ -291,7 +286,6 @@
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2021 Nick Duncan &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
-</main>
 
 
 </body>
@@ -299,5 +293,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>

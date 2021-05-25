@@ -22,18 +22,24 @@
 
 }
 
+.btn-link {
+  color: black;
+}
+
 .myRole {
   color: whitesmoke;
+  padding-left: 150px;
 }
 
 .problem {
   color: whitesmoke;
+  padding-left: 600px;
 }
 
 .currentSite {
   color: whitesmoke;
   align-content: center;
-  padding-left: 250px;
+  padding-left: 450px;
 }
 
 .userResearch {
@@ -68,6 +74,7 @@
   align-items: center;
   justify-content: center;
   margin: 0;
+  color: whitesmoke;
 }
 
 
